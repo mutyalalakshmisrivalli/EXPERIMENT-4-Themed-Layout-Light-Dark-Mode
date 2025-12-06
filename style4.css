@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 30px;
+}
+
+/* Dark Theme */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark header {
+    background: #000;
+}
